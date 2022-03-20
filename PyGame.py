@@ -14,7 +14,7 @@ for rodada in range(1, total_de_tentativas + 1):
     chute = int(chute_str)
 
     if(chute < 1 or chute > 100):
-        print("Você deve digitar um número entre 1 e 100!")
+        print("Você precisa digitar um número entre 1 e 100!")
         continue
             
 #parametros
@@ -28,8 +28,8 @@ for rodada in range(1, total_de_tentativas + 1):
         break
     else:
         if(maior):
-            print("Você errou! O seu chute foi maior do que o número secreto.")
+            print("Errou, chutou muito alto.")
         elif(menor):
-            print("Você errou! O seu chute foi menor do que o número secreto.")
+            print("Errou, seu chute foi menor do que o numero secreto.")
 
 print("Fim do jogo")
