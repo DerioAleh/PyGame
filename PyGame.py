@@ -1,9 +1,11 @@
+import random
+
 print("*********************************")
 print("Bem vindo ao jogo de Adivinhação!")
 print("*********************************")
 
 #valores principais
-numero_secreto = 42
+numero_secreto = random.randomrange(1, 101)
 total_de_tentativas = 3
 
 #inicio do ciclo vicioso
